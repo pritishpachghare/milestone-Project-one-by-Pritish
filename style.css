@@ -333,21 +333,9 @@ width: 30%;
 /* mobile */
 @media only screen and (max-width:768px) {
     #home{
-        width:1100px;
+        width:1080px;
         
     }
-    .content{
-        padding: none;
-    }
-    .content .p2{
-        display:
-        padding: none;
-        width: 10px;
-        height: 10px;
-    }
-.ppp {
-    float:left;
-}
 }
 
 
