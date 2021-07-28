@@ -59,6 +59,7 @@ img{
     align-items: center;
     justify-content: center;
     padding-left: 180px;
+
 }
 .a1{
     padding-right: 10px;
@@ -104,10 +105,10 @@ margin-right: 20px;
 
 
 .hero{
-    background:url(/images/pexels-sean-whang-804269@2x.png) no-repeat center center/cover;
+    background:url(/images/pexels-sean-whang-804269@2x.png)no-repeat center center/cover;
     height: 100vh;
     position: relative;
-    
+    width:100%;
 }
 
 
@@ -121,7 +122,7 @@ margin-right: 20px;
     height: 100%;
     background:rgba(0,0,0,1);
     z-index:-1;
-    padding-left:20px;
+
 }
 
 
@@ -135,13 +136,13 @@ margin-right: 20px;
     padding-top:90px;
     padding-bottom: 30px;
     font-size: 30px;
-    margin-right: 480px;
-
+    margin-right: 0px;
+    margin-right: 440px;
 }
 
 .content h1{
     padding-bottom: 10px;
-    font-size: 50px;
+    font-size: 40px;
 }
 .content img{
     float:right;
@@ -162,9 +163,13 @@ margin-right: 20px;
     padding-right: 100px;
     border-radius: 10px;
 }
+#home{
+    width: 100%;
+}
 /* About */
 .column {
     background:#1F2235;
+    width:100%;
     display: flex;
     flex-direction:row;
     align-items: center;
@@ -196,6 +201,7 @@ margin-right: 20px;
     background-color: 
     #313552;
  padding: 10px;
+ width:100%;
 }
  .progressbar{
      width: 100%;
@@ -269,6 +275,7 @@ text-align: center;
    display: flex;
    justify-content: space-between;
 height: 40vh;
+width: 100%;
 margin-left: 0;
 }
 
@@ -314,8 +321,33 @@ width: 30%;
     font-size: 25px;
     text-align: center;
     padding:100px 100px;
+    padding-left: 20px;
 }
 .p{
     text-align: center;
     padding-top: 20px;
+    
 }
+
+
+/* mobile */
+@media only screen and (max-width:768px) {
+    #home{
+        width:1100px;
+        
+    }
+    .content{
+        padding: none;
+    }
+    .content .p2{
+        display:
+        padding: none;
+        width: 10px;
+        height: 10px;
+    }
+.ppp {
+    float:left;
+}
+}
+
+
