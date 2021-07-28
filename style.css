@@ -4,10 +4,15 @@
     padding: 0;
     margin: 0;
 }
-body {
-    padding:0;
-    margin:0;
+*,
+body,
+html {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", "sans-serif";
 }
+
 
 ul{
     list-style:none;
@@ -195,6 +200,7 @@ margin-right: 20px;
 .column-2 .name img{
     height: 4vh;
     }
+
 /* My Stack */
 .mystack{
     height:700px;
@@ -332,10 +338,134 @@ width: 30%;
 
 /* mobile */
 @media only screen and (max-width:768px) {
-    #home{
-        width:1300px;
+    body{
+        width: 100%;
+        height:100%;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 10px;
+    }
+    .navbar .ppp{
+        display: flex;
+        margin-right: 400px;
+    }
+    ul{
+        padding-right: 30px;
+    }
+
+    .content .p1{
+        display:flex;
+        flex-direction: column;
+        padding-top: 150px;
+        align-content: center;
+        justify-content:center;
+        padding-right: 200px;
+        width: 100%;
+        height: 100%;
+        }
+    .content .p1 h1{
+        font-size: 20px;
+        
+    }    
+    .content .p1 h3{
+        font-size: 20px;
+
+    }
+
+    .content .p2 img{
+        display:none;
+        height:200px;
+        float: none;
+        justify-content: center;
+        align-content: center;
+        margin-top: 200px;
+    }
+
+
+    .column{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-1{
+        padding-right: 150px;
+    }
+    .column-2{
+        padding-top:30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-right: 70px;
+    }
+    .container1, .container2, .container3{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
         
     }
+    .mystack{
+        height: 100%;
+    }
+    .progressbar{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .progress1{
+        margin-left: 15px;
+        margin-right: 10px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+    .progress2{
+        margin-left: 100px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-content: center;
+        justify-content: center;
+    }
+    .navbarfooter{
+        padding-left:200px;
+    }
+    
+.p{
+padding-left: 190px;
+font-size:25px;
+padding-top: 50px;
+
+}
+.abc{
+    padding-left: 160px;
+}
+.abc h1{
+    display: flex;
+}
+.abc h3{
+    padding-left: 25px;
+}
+.email{
+    padding-left: 100px;
+}
+.a1{
+    padding-left: 240px;
 }
 
-
+}
+}
